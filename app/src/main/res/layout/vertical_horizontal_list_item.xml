@@ -42,7 +42,7 @@
             android:layout_height="194dp"
             android:scaleType="centerCrop"
             app:layout_constraintTop_toTopOf="parent"
-            ></ImageView>
+            />
         <!-- TODO: Create a TextView for each of the following:
                 The dog's name
                 The dog's age
@@ -55,7 +55,7 @@
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
             app:layout_constraintTop_toBottomOf= '@+id/dog_image'
             app:layout_constraintStart_toStartOf="parent"
-            ></TextView>
+            />
         <TextView
             android:id="@+id/dog_age"
             android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
             android:layout_margin="8dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintTop_toBottomOf= '@+id/dog_name'
-            app:layout_constraintStart_toStartOf="parent"></TextView>
+            app:layout_constraintStart_toStartOf="parent"/>
         <TextView
             android:id="@+id/dog_hobbies"
             android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
             android:layout_margin="8dp"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             app:layout_constraintTop_toTopOf= '@+id/dog_age'
-            app:layout_constraintEnd_toEndOf="parent"></TextView>
+            app:layout_constraintEnd_toEndOf="parent"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
