@@ -77,7 +77,7 @@ class DogCardAdapter(
         // TODO: Set the text for the current dog's name
         holder.dogName.text = dog.name
         // TODO: Set the text for the current dog's age
-        holder.dogAge.text = dog.age
+        holder.dogAge.text = "Age: " + dog.age
 
         val resources = context?.resources
         // TODO: Set the text for the current dog's hobbies by passing the hobbies to the
